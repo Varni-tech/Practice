@@ -15,4 +15,5 @@ Hey, My Self Spidey Patel and I am DevOps Learner. I am Writting for My Practice
 13. DevSecOps [Practical Security]
 14. Incident Response & SRE Basics
 15. Job Readiness
-16. Agentic AI For DevOps 
+16. Agentic AI For DevOps (Bonus For Job)
+
