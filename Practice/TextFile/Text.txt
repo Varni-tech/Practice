@@ -1,1 +1,18 @@
 Hey, My Self Spidey Patel and I am DevOps Learner. I am Writting for My Practice
+	Roadmap For DevOps
+1. Linux
+2. Bash & Automation Mindset
+3. Networking [Absolute Basics]
+4. Git & Team Workflows
+5. Containers [Docker Deep Reality]
+6. Cloud Fundamentals [AWS / Azure / GCP]
+7. CI/CD [Delivery Engineering]
+8. Azure DevOps [Enterprise Awareness]
+9. Infrastructure as code [Terraform]
+10. Kubernets [Operational, Not Theoretical]
+11. Helm & GitOps
+12. Observability
+13. DevSecOps [Practical Security]
+14. Incident Response & SRE Basics
+15. Job Readiness
+16. Agentic AI For DevOps 
