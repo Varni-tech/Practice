@@ -1,0 +1,192 @@
+Phase -1 [Foundaton]
+
+1. Linux [Thinking like a System Engineer]
+-> File System hierarchy [/, /var, /etc, /proc].
+-> File types, indoes, Symbolic Vs Hardlink.
+-> User, Groups, Permissions, Umask.
+-> Sudo internals & Security Implications.
+-> Process Lifecycle [fork, exec, signats].
+-> Systemd :-
+	- Units, targets, dependencies.
+	- Service failures and restart loops.
+-> Logs :-
+	- Journalctl deep usage.
+	- app logs vs system logs.
+-> Disk :-
+	- Mount Points, Fstab awareness.
+	- Disk Pressure and inode exhaustion.
+-> Memory & CPU :- 
+	- Free, vmstart basics.
+	- CPU load Vs CPU Usage.
+-> SSH :- 
+	- Key-based auth.
+	- Port forwarding Use Cases.
+-> Common Failures:- 
+	- Service not starting.
+	- Permission Denied.
+	- Disk full.
+	- High Load.
+
+2. Bash and Automation Mindset [Python]
+-> Shell execution model.
+-> Exit codes and error Handling.
+-> Variables, quating, conditiobals.
+-> Loops and functions.
+-> Positional Parameters.
+-> Pieps and Redirection.
+-> Cron and schedualing pitfalls.
+-> Idempotent scripting mindset.
+-> Logging in scripts.
+-> Defensive Scripting.
+
+3.Networking [Absolute Basics]
+-> OSI Vs TCP/IP [Practical mapping].
+-> IP addressing & CIDR.
+-> Ports and Sockets.
+-> TCP handshake and common failures.
+-> DNS :-
+	- Resolution flow.
+	- Caching & TTL.
+-> HTTP :-
+	- Request lifecycle.
+	- Headers, status codes.
+-> HTTPS :- 
+	- Certificates.
+	- TTL termination.
+-> Load balancing :- 
+	- L4 Vs L7.
+	- Health Check.
+-> Debugging tools :-
+	- curl [Advance Usage].
+	- dig / nslookup.
+	- SS/ netstate.
+	- Traceroute.
+	- tcpdump [Basic].
+
+4. Git and Team Workflows :- 
+-> Git internals [Commit tree concept].
+-> Branching Strategies [trunk-based Vs feature].
+-> Merge Vs rebase [when & why].
+-> Conflict  resolution.
+-> GitHub / GitLab / BitBucket.
+-> PR review etiquette.
+-> Commit hygine.
+-> Tagging and release.
+-> README writing [Engineering communication].
+
+
+Phase -2 [Shipping Software]
+
+1. Containers [Docker Deep Reality] :-
+-> Why container exist [VM Pain].
+-> Image Vs Container Vs Runtime.
+-> Dockerfile :- 
+	- Layer caching.
+	- ENTRYPOINT Vs CMD.
+	- Env handling.
+-> Multi-stage builds.
+-> Image size and attack surface.
+-> Volumes Vs bind mounts.
+-> Docker networking.
+-> Docker Compose Patterns.
+-> Common Failures :- 
+	- Container exits.
+	- Port not exposed.
+	- env misconfig.
+	- dependency missing.
+
+2. Cloud Fundamentals [AWS / Azure / GCP] :- 
+-> Shared responsibility models.
+-> IAM :-
+	- Users Vs roles.
+	- Policies.
+	- Access boundaries.
+-> EC2 :- 
+	- Instance Lifecycle.
+	- Security groups.
+-> VPC :- 
+	- CIDR Planning.
+	- Public Vs Private subnets.
+	- Routing.
+-> Storage :-
+	- S3 basics and policies.
+-> Databases :- 
+	- RDS awareness.
+-> Registry :- 
+	- ECR Workflow.
+-> Cost awareness :-
+	- Common mistakes.
+
+3. CI/CD [Delivery Engineering] :- 
+-> CI Vs CD.
+-> Pipeline design principles.
+-> Pipeline as code.
+-> Build -> test -> Scan -> artifact.
+-> Scerets management.
+-> Deployment Strategies :- 
+	- Roling.
+	- Blue - green.
+	- Canary [Conceptual].
+-> Rollback Mechanisms.
+-> Failure handling.
+-> Pipeline Observability [logs / artifacts].
+
+4. Azure DevOps [Enterprise Awareness] :-
+-> Why enterprices use it.
+-> Pipelines YAML overview.
+-> Repo + Boards basics.
+-> Comparison with GitHub AActions.
+
+Phase -3 [Cloud at Scale] 
+
+1. Infrastructure as Code [Terraform] :-
+-> Declarative Vs Imperative.
+-> Providers & resources.
+-> Variables & Outputs.
+-> State :-
+	- Why it exists.
+	- Drift.
+-> Modules :-
+	- Structure.
+	- Reusablity.
+	- Environment Separation [workspaces].
+-> Best Practices :- 
+	- Naming.
+	- Versioning.
+	- Remote Backends.
+	- Providers and Modules.
+
+2. Kubernets [Operational, Not Theoretical] :-
+-> Why Kubernets exists.
+-> Latest Version / Migrations / Upgrade [V1.35].
+-> Cluster architecture [high-level].
+-> Pods and controllers.
+-> Deployments Vs Statefulsets.
+-> Services and networking.
+-> Ingress.
+-> Config Maps and Secrets.
+-> Storage :-
+	- PVCs.
+-> Reliablity :-
+	- Probes.
+	- Resource limits.
+-> Kubectls :- 
+	- Describe.
+	- Logs.
+	- exec.
+-> Common failures :- 
+	- Crashloop Backoff.
+	- Image Pull errors.
+	- Misconfigured Services.
+3. Helm and Gitops :- 
+-> Helm chart structure.
+-> Values and templating.
+-> Helm upgrades and rollbacks.
+-> Gitops principles.
+-> Agro CD :-
+	- Sync.
+	- Drift Correction.
+	- Rollback via Git.
+-> End-to-End CI/CD Pipelines.
+
+
