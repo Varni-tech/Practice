@@ -189,4 +189,50 @@ Phase -3 [Cloud at Scale]
 	- Rollback via Git.
 -> End-to-End CI/CD Pipelines.
 
+Phase-4 [Production Readiness]
+
+1. Observability :-
+-> Metrics Vs Logs Vs Traces.
+-> RED and USE Signals.
+-> Alerting philosophy.
+-> Prometheus basics.
+-> Grafana dashboards.
+-> Logging Patterns.
+-> Open Telemetry :-
+	- Why it exists.
+	- Trace Flow.
+-> Debugging with data.
+
+2. DevSecOps [Practical Security] :-
+-> Secretes hygiene.
+-> Image Scanning.
+-> Depemdency awareness.
+-> K8s RBAC basics.
+- Least privilege mindset.
+-> Supply chain awareness [SBOM].
+
+3. Incident Response and SRE Basics :-
+-> on-call responsibility.
+-> Incident lifecycle.
+-> Postmortems.
+-> Runbooks.
+-> Reliability mindsets.
+
+4. Job Readiness :-
+-> Resune with engineering impact.
+-> Github as portfolio.
+-> Interview story building.
+-> Debugging interview.
+-> System design basics [entry level].
+
+# Bonus :-
+
+1. Agentic AI for DevOps :-
+-> Buliding Agents with Python.
+-> Deploying Agents at scale.
+-> MCP integration.
+-> Tools and Gateways.
+-> Project :-
+	- DevOps copilot Agent that reads logs or CI failures and suggest fixes.
+-> AIOps on AWS.
 
