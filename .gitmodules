@@ -1,0 +1,3 @@
+[submodule "Practice/Error_handling/django-notes-app"]
+	path = Practice/Error_handling/django-notes-app
+	url = https://github.com/LondheShubham153/django-notes-app.git
