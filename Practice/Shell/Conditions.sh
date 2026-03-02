@@ -3,6 +3,8 @@
 << Conditions
 This is for If, Else, Elif Statement check
 Conditions
+#This is Function Defination
+function is_winner() {
 
 read -p "Enter Player1 name: " Player1
 read -p "Enter Player2 name: " Player2
@@ -22,4 +24,7 @@ then
 else
     echo "Spidey is winner"
 fi
+}
 
+#This is Function Call
+is_winner
